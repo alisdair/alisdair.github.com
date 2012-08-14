@@ -20,6 +20,7 @@ This is the simplest use of JSON I could think of: displaying some fields from [
 [The github.c program](https://github.com/alisdair/jsmn-example/blob/master/github.c) fetches the JSON into a string, then parses it, and prints out the keys and values for the fields specified. To start, two functions from [the json.c module](https://github.com/alisdair/jsmn-example/blob/master/json.c) are used to interface with libcurl, and to tokenise the JSON, allocating memory appropriately.
 
 {% highlight c %}
+char *js = json_fetch(URL);
 jsmntok_t *tokens = json_tokenise(js);
 
 typedef enum { START, KEY, PRINT, SKIP, STOP } parse_state;
