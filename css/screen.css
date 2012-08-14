@@ -139,13 +139,14 @@ ul.posts span {
 }
 
 #post code {
-  border: 1px solid #999;
-  background-color: #272822;
-  font-size: 85%;
-  padding: 0 .2em;
+  background-color: #ffffc8;
 }
 
 #post pre code {
+  background-color: #272822;
+  color: white;
+  font-size: 85%;
+  padding: 0 .2em;
   border: none;
 }
 
