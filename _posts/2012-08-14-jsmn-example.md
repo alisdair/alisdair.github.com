@@ -181,4 +181,4 @@ None of these examples handle string unescaping at all, and neither does jsmn. A
 
 Also, I've been lazy and haven't written any unit tests for these examples. Pull requests are welcome.
 
-If you have any comments, [let me know via Twitter](https://twitter.com/alisdair).
+[The jsmn example code is on GitHub](https://github.com/alisdair/jsmn-example). If you have any comments, [let me know via Twitter](https://twitter.com/alisdair).
