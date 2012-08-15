@@ -65,7 +65,7 @@ ul.posts span {
 
 .site {
   text-align: left;
-  width: 40em;
+  width: 600px;
   margin: 3em auto 2em auto;
 }
 
@@ -100,8 +100,9 @@ ul.posts span {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
-  margin-top: 2em;
   overflow: hidden;
+  margin-bottom: 0.5em;
+  padding: 1em 0;
 }
 
 .site .footer a {
@@ -116,12 +117,14 @@ ul.posts span {
 
 .site .footer .contact {
   float: left;
+  margin-top: 0.5em;
   margin-right: 3em;
 }
 
 .site .footer .about {
   float: right;
   text-align: right;
+  margin-top: 0.5em;
   margin-right: none;
 }
 
@@ -162,3 +165,10 @@ ul.posts span {
   background-color: #333;
 }
 
+@media screen and (max-width: 480px) {
+  .title { font-size: 14px; margin-bottom: 16px; }
+  h1 { margin-top: 1em; }
+  .site { width: 94%; margin: 1em auto 2em auto; }
+  #post pre { font-size: 10px; width: 94%; overflow: auto; }
+  img { max-width: 100%; }
+}
