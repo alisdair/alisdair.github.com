@@ -5,7 +5,7 @@ title: "jsmn example, or parsing JSON with C"
 
 # {{ page.title}}
 
-I recently had to parse [JSON](http://www.json.org/) on a very small embedded system. When looking for tools to help with this, I found and loved Serge Zaitsev's [jsmn](http://zserge.bitbucket.org/jsmn.html).
+I recently had to parse [JSON](http://www.json.org/) on a very small embedded system. When looking for tools to help with this, I found and loved Serge Zaitsev's [jsmn](http://zserge.com/jsmn.html).
 
 The philosophy behind jsmn is to be as simple as possible: no dynamic memory allocation, no callbacks, and absolutely no dependences. It's a great piece of software, but there are no examples, so it took a couple of hours to get going.
 
