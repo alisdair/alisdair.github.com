@@ -50,7 +50,7 @@ This stops your proxy responding to all methods except the essentials: `__id__`,
 
 ### Forward!
 
-Then, you need your proxy implementation. We just forward all calls to `responds_to?` and any missing methods on to the target object:
+Then, you need your proxy implementation. We just forward all calls to `respond_to?` and any missing methods on to the target object:
 
 {% highlight ruby %}
 class InvisibleProxy
