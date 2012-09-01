@@ -51,47 +51,68 @@ blockquote {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+ul.posts>li {
+  margin-left: 50px;
 }
 
-ul.posts span {
+ul.posts>li>time {
   color: #aaa;
   font-size: 80%;
+  width: 100px;
+  display: block;
+  margin-top: 1em;
+}
+
+ul.posts>li>a {
+  padding: 0.1em;
 }
 
 .site {
   text-align: left;
   width: 600px;
-  margin: 3em auto 2em auto;
+  margin: 50px auto 30px auto;
 }
 
 .title {
-  color: #0c0;
-  font-weight: bold;
-  margin-bottom: 2em;
+  width: 250px;
+  overflow: auto;
 }
 
-.site .title a {
+.name {
+  width: 100px;
+  float: left;
+}
+
+.greeting {
+  float: right;
+  width: 150px;
+}
+
+.name, .greeting {
+  color: #0c0;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+.name>a {
   color: #0c0;
   text-decoration: none;
 }
 
-.site .title a:hover {
+.name>a:hover {
   color: #fff;
   background: #0c0;
 }
 
-.site .title a.extra {
+.greeting>a.extra {
   color: #aaa;
   text-decoration: none;
-  margin-left: 1em;
 }
 
-.site .title a.extra:hover {
+.greeting>a.extra:hover {
   color: #fff;
   background: #0c0;
 }
@@ -101,8 +122,10 @@ ul.posts span {
   color: #666;
   border-top: 4px solid #eee;
   overflow: hidden;
-  margin-bottom: 0.5em;
-  padding: 1em 0;
+  margin: 2em 0;
+  padding: 0 0 1em 0;
+  width: 500px;
+  float: right;
 }
 
 .site .footer a {
@@ -117,12 +140,15 @@ ul.posts span {
 
 .site .footer .contact {
   float: left;
+  margin-left: 240px;
+  width: 120px;
+  text-align: left;
   margin-top: 0.5em;
-  margin-right: 3em;
 }
 
 .site .footer .about {
   float: right;
+  width: 120px;
   text-align: right;
   margin-top: 0.5em;
   margin-right: none;
@@ -170,9 +196,10 @@ ul.posts span {
   color: #999;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
   .title { font-size: 14px; margin-bottom: 16px; }
   h1 { margin-top: 1em; }
+  ul.posts>li { margin-left: 1em; }
   .site { width: 94%; margin: 1em auto 2em auto; }
   #post pre { font-size: 10px; width: 94%; overflow: auto; }
   img { max-width: 100%; }
