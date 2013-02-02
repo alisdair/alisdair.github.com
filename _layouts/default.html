@@ -12,32 +12,26 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link href="/css/screen.css" rel="stylesheet" type="text/css" media="screen, projection" />
-    <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
+    <link href="{% minified_css_file %}" rel="stylesheet" type="text/css" media="screen, projection" />
   </head>
 
   <body>
-    <div class="site">
-      <div class="title">
-        <div class="name">
-          <a href="/">Alisdair McDiarmid</a>
-        </div>
-        <div class="greeting">
-          <a href="/" class="extra">Hello. <br>How are you?</a>
-        </div>
+    <div id="site">
+      <div id="title">
+        <a href="/">Alisdair McDiarmid</a>
       </div>
 
+      <div id="main">
       {{ content }}
+      </div>
 
-      <div class="footer">
-        <div class="contact">
-          <a href="http://github.com/alisdair/">github.com/alisdair</a><br />
-          <a href="http://twitter.com/alisdair/">twitter.com/alisdair</a>
-        </div>
-        <div class="about">
-          <a href="https://github.com/mojombo/jekyll/">Made with Jekyll</a><br />
-          <a href="http://feeds.feedburner.com/randomoracle">RSS Feed</a>
-        </div>
+      <div id="footer">
+        <ul class="links">
+          <li><a href="http://github.com/alisdair/">GitHub</a></li>
+          <li><a href="http://twitter.com/alisdair/">Twitter</a></li>
+          <li><a href="http://www.linkedin.com/pub/alisdair-mcdiarmid/5a/340/431">LinkedIn</a></li>
+          <li><a href="http://feeds.feedburner.com/randomoracle">RSS Feed</a></li>
+        </ul>
       </div>
     </div>
   </body>
