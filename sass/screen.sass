@@ -8,7 +8,7 @@ $link-color:       #05c902
 $highlight-color:  #ffffc8
 
 $base-font-size: 16px
-$base-line-height: 24px
+$base-line-height: 12px
 
 $heading-font-sizes: 44px,28px,22px,18px,16px,16px
 
@@ -18,88 +18,119 @@ $grid-background-baseline-height: $base-line-height/$base-font-size * 1em
 +establish-baseline
 
 html
-	margin: 0 1em
-	background: $background-color
-	// +debug-vertical-alignment
-	font-family: "Helvetica", sans-serif
-	color: $foreground-color
+  +adjust-leading-to(2)
+  margin: 0 1em
+  background: $background-color
+  // +debug-vertical-alignment
+  font-family: "Helvetica", sans-serif
+  color: $foreground-color
 
 @for $i from 1 through 6
-	h#{$i}
-		+adjust-font-size-to(nth($heading-font-sizes, $i))
-		font-weight: bold
+  h#{$i}
+    $font-size: nth($heading-font-sizes, $i)
+    +adjust-font-size-to($font-size)
+    +leader(2, $font-size)
+    +trailer(1, $font-size)
+    font-weight: bold
 
 h1
-	+trailer(1, nth($heading-font-sizes, 1))
+  +trailer(2, nth($heading-font-sizes, 1))
 
 p
-	+trailer(1)
+  +trailer(2)
+
+.footnote
+  +adjust-font-size-to(12px)
 
 a
-	color: lighten($foreground-color, 25%)
-	text-decoration: underline
-	&:visited
-		color: lighten($foreground-color, 50%)
-	&:hover
-		background: $link-color
-		color: mix($link-color, $background-color, 0.75)
+  color: lighten($foreground-color, 25%)
+  text-decoration: underline
+  &:visited
+    color: lighten($foreground-color, 50%)
+  &:hover
+    background: $link-color
+    color: mix($link-color, $background-color, 0.75)
 
 p code
-	background: $highlight-color
-	font-family: monospace
+  background: $highlight-color
+  font-family: monospace
 
 pre
-	+trailer(1)
-	+rhythm-borders(2px)
-	background: transparentize($foreground-color, 0.1)
-	border-color: mix($foreground-color, $background-color)
-	font-family: monospace
-	// +adjust-font-size-to(14px, 1)
-	color: $background-color
-	overflow: scroll
+  +trailer(2)
+  +rhythm-borders(2px)
+  background: transparentize($foreground-color, 0.1)
+  border-color: mix($foreground-color, $background-color)
+  font-family: monospace
+  color: $background-color
+  overflow: scroll
+
+blockquote
+  color: lighten($foreground-color, 25%)
+  border-left: 0.5em solid mix($foreground-color, $background-color, 25%)
+  margin-left: 1.5em
+  margin-right: 1.5em
+  padding-left: 1em
 
 #site
-	width: 40em
-	margin: 0 auto
-	+leader(1)
+  width: 40em
+  margin: 0 auto
+  +leader(1)
 
 #title
-	font-weight: bold
-	@extend h1
-	a
-		color: $link-color
-		text-decoration: none
-		&:hover
-			color: mix($link-color, $background-color)
+  font-weight: bold
+  @extend h1
+  a
+    color: $link-color
+    text-decoration: none
+    &:hover
+      color: mix($link-color, $background-color)
 
 #posts
-	+leader(2)
-	+trailer(1)
+  +leader(4)
+  +trailer(2)
 
-	time
-		+leader(1)
-		display: block
+  time
+    +leader(2)
+    display: block
 
-	a
-		@extend h2
-		display: block
-		color: $foreground-color
-		text-decoration: none
-		background: $background-color
-		&:hover
-			background: darken($background-color, 10%)
-			color: lighten($foreground-color, 10%)
+  a
+    @extend h2
+    +leader(0)
+    display: block
+    color: $foreground-color
+    text-decoration: none
+    background: $background-color
+    &:hover
+      background: darken($background-color, 10%)
+      color: lighten($foreground-color, 10%)
 
 
 #footer
-	overflow: auto
-	+leader(1.5)
-	+padding-trailer(1)
-	+leading-border(3px, 0.5)
-	border-color: mix($foreground-color, $background-color)
-	border-style: solid
+  overflow: auto
+  +leader(3)
+  +padding-trailer(2)
+  +leading-border(3px, 1)
+  border-color: mix($foreground-color, $background-color)
+  border-style: solid
 
-	li
-		width: 25%
-		float: left
-		text-align: center
+  li
+    width: 25%
+    float: left
+    text-align: center
+
+
+@media screen and (max-width: 700px)
+  #site
+    width: 94%
+  #title, h1
+    +adjust-font-size-to(28px)
+  h2
+    +adjust-font-size-to(24px)
+  #posts
+    +leader(2)
+  #post pre
+    +adjust-font-size-to(10px)
+  img
+    max-width: 100%
+  #footer
+    +adjust-font-size-to(10px)

@@ -1,3 +1,4 @@
+safe: true
 markdown: rdiscount
 pygments: true
-exclude: Procfile, README.md, config.rb, sass, css/screen.css, css/syntax.css
+exclude: Rakefile, README.md, config.rb, sass, css
