@@ -10,7 +10,7 @@ $highlight-color:  #ffffc8
 $base-font-size: 16px
 $base-line-height: 12px
 
-$heading-font-sizes: 44px,28px,22px,18px,16px,16px
+$heading-font-sizes: 44px,28px,21px,18px,16px,16px
 
 $grid-background-baseline-color:  rgba(0,0,0,0.05)
 $grid-background-baseline-height: $base-line-height/$base-font-size * 1em 
@@ -60,7 +60,7 @@ pre
   +rhythm-borders(2px)
   background: transparentize($foreground-color, 0.1)
   border-color: mix($foreground-color, $background-color)
-  font-family: monospace
+  font-family: "Menlo", "Bitstream Vera Sans Mono", "Deja Vu Sans Mono", "Andale Mono", monospace
   color: $background-color
   overflow: scroll
 
@@ -124,12 +124,19 @@ blockquote
     width: 94%
   #title, h1
     +adjust-font-size-to(28px)
+    +trailer(2, 28px)
   h2
     +adjust-font-size-to(24px)
+    +leader(2, 24px)
+    +trailer(1, 24px)
   #posts
     +leader(2)
   #post pre
     +adjust-font-size-to(10px)
+    +leader(2, 10px)
+    +trailer(2, 10px)
+    +rhythm-borders(2px, 1, 10px)
+
   img
     max-width: 100%
   #footer
