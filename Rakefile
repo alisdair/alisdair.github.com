@@ -1,5 +1,9 @@
 task :default => [:build]
 
+task :serve => ["screen.min.css"] do
+  sh "jekyll --auto --serve"
+end
+
 task :build => ["screen.min.css"] do
   sh "jekyll"
 end
