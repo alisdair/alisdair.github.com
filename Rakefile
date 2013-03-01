@@ -1,17 +1,13 @@
 task :default => [:build]
 
-task :serve => ["screen.min.css"] do
+task :serve => ["css/screen.css"] do
   sh "jekyll --auto --serve"
 end
 
-task :build => ["screen.min.css"] do
+task :build => ["css/screen.css"] do
   sh "jekyll"
 end
 
-task :css => Dir["sass/*.sass"] do
-  sh "compass compile"
-end
-
-file "screen.min.css" => [:css] do
-  sh "juicer merge --document-root . --force --output screen.min.css css/*.css"
+file "css/screen.css" => Dir["sass/*.sass"] do
+  sh "compass compile --output-style compressed sass/screen.sass"
 end
