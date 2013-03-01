@@ -1,4 +1,4 @@
 _site
 .sass-cache
-css/screen.css
+css/*.css
 .DS_Store

@@ -13,5 +13,5 @@ task :css => Dir["sass/*.sass"] do
 end
 
 file "screen.min.css" => [:css] do
-  sh "juicer merge --force --output screen.min.css css/*.css"
+  sh "juicer merge --document-root . --force --output screen.min.css css/*.css"
 end

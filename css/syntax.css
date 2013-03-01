@@ -10,7 +10,7 @@
 .cp { color: #75715e } /* Comment.Preproc */
 .c1 { color: #75715e } /* Comment.Single */
 .cs { color: #75715e } /* Comment.Special */
-.ge { font-style: italic } /* Generic.Emph */
+.ge { font-weight: bold } /* Generic.Emph */
 .gs { font-weight: bold } /* Generic.Strong */
 .kc { color: #66d9ef } /* Keyword.Constant */
 .kd { color: #66d9ef } /* Keyword.Declaration */
