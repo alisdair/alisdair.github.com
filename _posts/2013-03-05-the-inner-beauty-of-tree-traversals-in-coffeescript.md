@@ -10,7 +10,7 @@ Last year, [Tom Moertel][tom] wrote about [beautiful tree traversal using functi
 [tom]: http://blog.moertel.com/about.html
 [post]: http://blog.moertel.com/posts/2012-01-26-the-inner-beauty-of-tree-traversals.html
 
-Unfortunately, this article is quite lengthy. The key point is this: any language supporting first-class functions lets you implement a beautiful pattern for data structure traversal. This pattern uses partially-applied functions, composed in the order you want to traverse.
+This article is quite lengthy. My key point is this: any language supporting first-class functions lets you implement a beautiful pattern for data structure traversal. This pattern uses partially-applied functions, composed in the order you want to traverse.
 
 No idea what partial application or function composition are? Read on.
 
