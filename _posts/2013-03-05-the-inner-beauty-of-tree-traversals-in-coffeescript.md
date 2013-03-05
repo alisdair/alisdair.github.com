@@ -252,7 +252,7 @@ I hope this has been a fun read. You can [take a look at the code][code] and run
 [code]: https://gist.github.com/alisdair/5092116
 [tweet]: http://twitter.com/alisdair
 
-If this sort of programming interests you, you should read [Reg Braithwate's books][raganwald], most especially [Kestrels, Quirky Birds, and Hopeless Egocentricity][kestrels]. His work is the most accessible introduction to functional programming I know of.
+If this sort of programming interests you, you should read [Reg Braithwaite's books][raganwald], most especially [Kestrels, Quirky Birds, and Hopeless Egocentricity][kestrels]. His work is the most accessible introduction to functional programming I know of.
 
 [raganwald]: https://leanpub.com/u/raganwald
 [kestrels]: https://leanpub.com/combinators
