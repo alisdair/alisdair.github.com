@@ -254,5 +254,10 @@ I hope this has been a fun read. You can [take a look at the code][code] and run
 
 If this sort of programming interests you, you should read [Reg Braithwaite's books][raganwald], most especially [Kestrels, Quirky Birds, and Hopeless Egocentricity][kestrels]. His work is the most accessible introduction to functional programming I know of.
 
+More specifically, [Learn You a Haskell for Great Good][learnyou] is my favourite book on Haskell, with [Real World Haskell][realworldhaskell] a close second. It's definitely [a language worth learning][beating-the-averages].
+
 [raganwald]: https://leanpub.com/u/raganwald
 [kestrels]: https://leanpub.com/combinators
+[learnyou]: http://learnyouahaskell.com/
+[realworldhaskell]: http://book.realworldhaskell.org/
+[beating-the-averages]: http://www.paulgraham.com/avg.html
