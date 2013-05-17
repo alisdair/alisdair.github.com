@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tree traversal (in CoffeeScript)"
+title: "Tree traversal in CoffeeScript"
 ---
 
 # {{ page.title}}
