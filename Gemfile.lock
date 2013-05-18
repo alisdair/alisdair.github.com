@@ -36,5 +36,5 @@ PLATFORMS
 
 DEPENDENCIES
   compass
-  jekyll
+  jekyll (~> 0.12.1)
   rdiscount

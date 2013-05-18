@@ -1,11 +1,11 @@
 task :default => [:build]
 
 task :serve => ["css/screen.css"] do
-  sh "jekyll --auto --serve"
+  sh "bundle exec jekyll --auto --serve"
 end
 
 task :build => ["css/screen.css"] do
-  sh "jekyll"
+  sh "bundle exec jekyll"
 end
 
 file "css/screen.css" => Dir["sass/*.sass"] do
