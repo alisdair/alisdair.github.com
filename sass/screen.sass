@@ -46,14 +46,19 @@ p
 .footnote
   +adjust-font-size-to(12px)
 
-a
-  color: lighten($foreground-color, 25%)
-  text-decoration: underline
-  &:visited
-    color: lighten($foreground-color, 50%)
-  &:hover
+#post
+  a
+    color: lighten($foreground-color, 25%)
+    text-decoration: none
+  a:visited
+    color: $foreground-color
+    background: mix($link-color, $background-color, 0.5)
+  &:hover a
+    color: $link-color
+    background: darken($background-color, 5%)
+  a:hover
+    color: mix($link-color, $background-color, 0.5)
     background: $link-color
-    color: mix($link-color, $background-color, 0.75)
 
 p code
   background: $highlight-color
