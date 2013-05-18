@@ -1,4 +1,4 @@
 safe: true
 markdown: rdiscount
 pygments: true
-exclude: Rakefile, README.md, config.rb, sass
+exclude: [Gemfile, Gemfile.lock, Guardfile, README.md, config.rb, sass]
