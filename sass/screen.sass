@@ -25,7 +25,7 @@ html
   margin: 0 1em
   background: $background-color
   // +debug-vertical-alignment
-  font-family: "Museo Sans", sans-serif
+  font-family: "Verb", sans-serif
   color: $foreground-color
 
 @for $i from 1 through 6
@@ -46,16 +46,16 @@ p
 .footnote
   +adjust-font-size-to(12px)
 
-#post
+#post, #about
   a
-    color: lighten($foreground-color, 25%)
+    color: $link-color
     text-decoration: none
+    border-bottom: 1px dotted transparent
   a:visited
-    color: $foreground-color
+    color: darken($link-color, 10%)
     background: mix($link-color, $background-color, 0.5)
   &:hover a
-    color: $link-color
-    background: darken($background-color, 5%)
+    border-color: darken($background-color, 20%)
   a:hover
     color: mix($link-color, $background-color, 0.5)
     background: $link-color
@@ -103,13 +103,15 @@ em strong, strong em
 #title
   @extend h1
   a
+    font-family: "Museo Sans"
+    font-weight: bold
     color: $link-color
     text-decoration: none
     &:hover
       color: mix($link-color, $background-color)
 
 #posts
-  +leader(4)
+  +leader(3)
   +trailer(2)
 
   time
@@ -129,6 +131,7 @@ em strong, strong em
 
 
 #footer
+  font-weight: 300
   overflow: auto
   +leader(6)
   +padding-trailer(2)
