@@ -60,6 +60,28 @@ p
     color: mix($link-color, $background-color, 0.5)
     background: $link-color
 
+#about
+  max-width: 27em
+  img
+    +transition-property(all)
+    +transition-duration(200ms)
+    width: 8em
+    height: 8em
+    position: absolute
+    top: 0
+    right: 0
+    +border-radius(50%)
+    border: 5px solid #bbb
+    &:hover
+      +rotate(5deg)
+      border-color: #999
+    &.post-photo
+      width: 2.5em
+      height: 2.5em
+      border-width: 3px
+      &:hover
+        +rotate(0)
+
 p code
   background: $highlight-color
 
@@ -97,6 +119,7 @@ em strong, strong em
 #site
   width: 35em
   margin: 0 auto
+  position: relative
   +leader(1)
 
 #title
@@ -147,6 +170,8 @@ em strong, strong em
     float: left
     text-align: center
 
+  p
+    text-align: center
 
 @media screen and (max-width: 700px)
   $base-font-size: 16px
@@ -178,3 +203,8 @@ em strong, strong em
 
   img
     max-width: 100%
+
+  #about
+    max-width: 100%
+    img
+      display: none
