@@ -198,8 +198,8 @@ em strong, strong em
     +adjust-font-size-to(30px)
     +trailer(2, 30px)
   #title
-    +adjust-font-size-to(26px)
-    +trailer(2, 26px)
+    +adjust-font-size-to(32px)
+    +trailer(2, 32px)
   h2
     +adjust-font-size-to(24px)
     +leader(2, 24px)
@@ -219,5 +219,15 @@ em strong, strong em
 
   #about
     max-width: 100%
-    img
-      display: none
+    .photo-wrapper
+      width: 2.5em
+      height: 2.5em
+      border-width: 3px
+      img
+        width: 2.5em
+        height: 2.5em
+
+@media screen and (max-width: 400px)
+  #title
+    +adjust-font-size-to(24px)
+    +trailer(2, 24px)
