@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "jsmn example, or parsing JSON with C"
+description: Parsing JSON in C using the simple jsmn library, ideal for small embedded systems. Includes free sample code and explains how it works.
 ---
 
 # {{ page.title}}

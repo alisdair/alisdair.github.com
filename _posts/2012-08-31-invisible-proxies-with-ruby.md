@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Invisible proxies with Ruby
+description: ActiveRecord collections seem to be arrays, but they're not! This article explains the invisible proxy pattern which makes this possible.
 ---
 
 # {{ page.title }}

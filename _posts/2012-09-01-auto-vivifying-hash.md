@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Auto-vivifying hash
+description: How to define the Ruby hash default value. Allows you to write cleaner, more confident Ruby code. Ideal when working with unstructured data.
 ---
 
 # {{ page.title }}

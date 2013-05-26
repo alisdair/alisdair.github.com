@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fixing Rails auto loading for serialised objects
+description: Serialised columns in Ruby on Rails sometimes fail to load, and remain as YAML strings. This article explains how, why, and what you can do about it.
 ---
 
 # {{ page.title }}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tree traversal in CoffeeScript"
+description: Processing tree-structured data using functional programming in CoffeeScript. A detailed explanation and translation of Tom Moertel's original Haskell.
 ---
 
 # {{ page.title}}

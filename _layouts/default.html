@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <meta name="description" content="Software engineer and consultant based in Glasgow, Scotland.">
+    {% if page.description %}<meta name="description" content="{{page.description}}">{% else %}<meta name="description" content="{{site.description}}">{% endif %}
     <meta name="author" content="Alisdair McDiarmid">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <script type="text/javascript">

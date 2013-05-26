@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "It is our responsibility to teach"
+description: Should software engineers use advanced techniques or algorithms, or stick to the basics? It is our duty to share what we've learned through our code.
 ---
 
 # {{ page.title}}
