@@ -62,25 +62,38 @@ p
 
 #about
   max-width: 27em
-  img
+  .photo-wrapper
     +transition-property(all)
     +transition-duration(200ms)
-    width: 8em
-    height: 8em
     position: absolute
     top: 0
     right: 0
-    +border-radius(50%)
+    +border-radius(100%)
     border: 5px solid #bbb
+    +box-sizing(border-box)
+    width: 8em
+    height: 8em
+    background: url(/alisdair.jpg) no-repeat
+    background-size: cover
+    overflow: hidden
     &:hover
       +rotate(5deg)
       border-color: #999
+    img
+      +opacity(0)
+      width: 8em
+      height: 8em
+
     &.post-photo
       width: 2.5em
       height: 2.5em
       border-width: 3px
       &:hover
         +rotate(0)
+      img
+        width: 2.5em
+        height: 2.5em
+
 
 p code
   background: $highlight-color
