@@ -74,8 +74,10 @@ p
     width: 8em
     height: 8em
     background: url(/alisdair.jpg) no-repeat
-    background-size: 100%
+    +background-size(100%)
     overflow: hidden
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/alisdair.jpg', sizingMethod='scale')
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/alisdair.jpg', sizingMethod='scale')"
     &:hover
       +rotate(5deg)
       border-color: #999
@@ -166,7 +168,9 @@ em strong, strong em
 
 
 #footer
-  font-weight: 300
+  font-family: "Verb Light"
+  font-weight: normal
+  font-style: normal
   overflow: auto
   +leader(6)
   +padding-trailer(2)
