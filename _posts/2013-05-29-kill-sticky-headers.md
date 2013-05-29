@@ -26,9 +26,10 @@ Finally, I just don't care right now about navigating your website, or following
 
 ## How the bookmarklet works
 
-It's really simple, because [`querySelectorAll` is awesome](querySelectorAll). Here's the source:
+It's really simple, because [`querySelectorAll`][querySelectorAll] is awesome. [Here's the source][gist]:
 
 [querySelectorAll]: http://www.w3.org/TR/selectors-api/#examples
+[gist]: https://gist.github.com/alisdair/5670341
 
 {% highlight javascript %}
 (function () { 
