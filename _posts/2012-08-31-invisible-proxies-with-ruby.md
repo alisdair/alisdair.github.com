@@ -4,8 +4,6 @@ title: Invisible proxies with Ruby
 description: ActiveRecord collections seem to be arrays, but they're not! This article explains the invisible proxy pattern which makes this possible.
 ---
 
-# {{ page.title }}
-
 One of the coolest aspects of ActiveRecord is its support for associations. You use a domain-specific language to define your associations, and collection methods are defined so that you can access them.
 
 Here's an example:

@@ -4,8 +4,6 @@ title: "Kill sticky headers"
 description: A bookmarklet which removes fixed-position elements from a page.
 ---
 
-# {{ page.title}}
-
 There is currently a trend for using sticky headers on websites. There's even [a sticky header web startup][hellobar].
 
 I hate sticky headers. _I want to kill sticky headers._

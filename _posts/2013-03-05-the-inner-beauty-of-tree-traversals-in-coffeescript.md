@@ -4,8 +4,6 @@ title: "Tree traversal in CoffeeScript"
 description: Processing tree-structured data using functional programming in CoffeeScript. A detailed explanation and translation of Tom Moertel's original Haskell.
 ---
 
-# {{ page.title}}
-
 Last year, [Tom Moertel][tom] wrote about [beautiful tree traversal using function composition in Haskell][post]. To help me understand it better, I translated his code into CoffeeScript.
 
 [tom]: http://blog.moertel.com/about.html

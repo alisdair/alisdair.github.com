@@ -4,8 +4,6 @@ title: "It is our responsibility to teach"
 description: Should software engineers use advanced techniques or algorithms, or stick to the basics? It is our duty to share what we've learned through our code.
 ---
 
-# {{ page.title}}
-
 The scouting motto "[leave the world a little better than you found it][baden-powell]" applies perfectly to software. Often this is used to encourage programmers to clean up the mess left by past programmers, but it works in both directions. It is also the responsibility of all software engineers to leave future programmers better off for having worked with their code. It is our duty to teach, even if we don't ever talk to our students.
 
 [baden-powell]: http://en.wikiquote.org/wiki/Robert_Baden-Powell

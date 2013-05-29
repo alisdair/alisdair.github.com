@@ -4,8 +4,6 @@ title: Auto-vivifying hash
 description: How to define the Ruby hash default value. Allows you to write cleaner, more confident Ruby code. Ideal when working with unstructured data.
 ---
 
-# {{ page.title }}
-
 Standard hashes in Ruby return `nil` for unknown keys, but you can change the default value. I ran into an "eww! ugly code!" problem earlier today, and the solution was an auto-vivifying hash: one which has a default value of a new empty hash.
 
 It's clearer why this is useful with an example application. Here's some naive Ruby code for counting word frequencies:

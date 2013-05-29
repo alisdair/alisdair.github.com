@@ -4,8 +4,6 @@ title: Fixing Rails auto loading for serialised objects
 description: Serialised columns in Ruby on Rails sometimes fail to load, and remain as YAML strings. This article explains how, why, and what you can do about it.
 ---
 
-# {{ page.title }}
-
 ActiveRecord's `serialize` method doesn't auto-load custom classes when Rails is in development mode. This means that sometimes your serialised columns will remain as serialised YAML strings instead of the objects you want. This is not documented, isn't really a Rails bug, and is quite confusing. But it can be fixed!
 
 ## Symptoms
