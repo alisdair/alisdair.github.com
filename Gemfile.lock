@@ -59,6 +59,7 @@ GEM
     pygments.rb (0.5.0)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rake (10.0.4)
     rb-fsevent (0.9.3)
     rb-inotify (0.9.0)
       ffi (>= 0.5.0)
@@ -79,10 +80,12 @@ PLATFORMS
 DEPENDENCIES
   RedCloth (= 4.2.9)
   compass (= 0.12.2)
+  guard (= 1.8.0)
   guard-compass
   guard-jekyll
   jekyll (= 1.0.2)
   liquid (= 2.5.0)
   maruku (= 0.6.1)
+  rake (~> 10.0.0)
   rdiscount (= 1.6.8)
   redcarpet (= 2.2.2)
