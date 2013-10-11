@@ -4,7 +4,8 @@
 
 $foreground-color: #222222
 $background-color: #ffffff
-$link-color:       #05c902
+$link-color:       #0542d5
+$secondary-color:  #05c902
 $highlight-color:  #ffffc8
 
 $base-font-size: 20px
@@ -25,7 +26,7 @@ html
   margin: 0 1em
   background: $background-color
   // +debug-vertical-alignment
-  font-family: "Verb", sans-serif
+  font-family: "DejaVu Sans", sans-serif
   color: $foreground-color
 
 @for $i from 1 through 6
@@ -34,8 +35,8 @@ html
     +adjust-font-size-to($font-size)
     +leader(2, $font-size)
     +trailer(1, $font-size)
-    font-family: "Museo Slab 700", sans-serif
-    font-weight: normal
+    font-family: "Roboto Slab", sans-serif
+    font-weight: bold
 
 h1
   +trailer(2, nth($heading-font-sizes, 1))
@@ -156,12 +157,12 @@ em strong, strong em
 #title
   @extend h1
   a
-    font-family: "Museo Sans"
-    font-weight: bold
-    color: $link-color
+    font-family: "Roboto Slab"
+    font-weight: normal
+    color: $secondary-color
     text-decoration: none
     &:hover
-      color: mix($link-color, $background-color)
+      color: mix($secondary-color, $background-color)
 
 #posts
   +leader(3)
@@ -174,6 +175,7 @@ em strong, strong em
   a
     @extend h2
     +leader(0)
+    +trailer(3, nth($heading-font-sizes, 2))
     display: block
     color: $foreground-color
     text-decoration: none
@@ -184,7 +186,7 @@ em strong, strong em
 
 
 #footer
-  font-family: "Verb Light"
+  font-family: "DejaVu Sans"
   font-weight: normal
   font-style: normal
   overflow: auto
