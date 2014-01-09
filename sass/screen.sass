@@ -61,6 +61,7 @@ p
     color: mix($link-color, $background-color, 0.5)
     background: $link-color
 
+#post
   .bookmarklet a
     +border-radius(1em)
     +box-shadow(0 0.25em 0.5em rgba(0,0,0,0.2))
@@ -73,6 +74,11 @@ p
       +box-shadow(0 0.2em 0.5em rgba(0,0,0,0.2))
       position: relative
       top: 0.05em
+
+  img
+    display: block
+    margin: 0 auto
+    max-width: 100%
 
 #about
   max-width: 27em
@@ -236,9 +242,6 @@ em strong, strong em
     +leader(2, 12px)
     +trailer(2, 12px)
     +rhythm-borders(2px, 1, 12px)
-
-  img
-    max-width: 100%
 
   #about
     max-width: 100%
