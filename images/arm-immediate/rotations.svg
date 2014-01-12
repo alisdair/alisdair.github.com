@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="700px" height="656px" viewBox="0 0 700 656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="700px" height="656px" viewBox="0 0 700 656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" style="font-family: Menlo, DejaVu Sans Mono, Consolas, Courier">
     <title>rotations</title>
     <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Bit-numbers-+-Rotation-+-Background" sketch:type="MSLayerGroup" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="10">
+        <g id="Bit-numbers-+-Rotation-+-Background" sketch:type="MSLayerGroup" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="10">
             <g id="Bit-numbers" transform="translate(59.000000, 0.000000)" sketch:type="MSTextLayer">
                 <text id="31">
                     <tspan x="3.97949219" y="9">31</tspan>
@@ -110,7 +110,7 @@
         <g id="Rotation-0" sketch:type="MSLayerGroup" transform="translate(8.000000, 15.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="531" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(538.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(538.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -180,15 +180,15 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x00</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x0</tspan>
             </text>
         </g>
         <g id="Rotation-1" sketch:type="MSLayerGroup" transform="translate(8.000000, 55.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="571" y="0" width="120" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="51" y="0" width="40" height="40"></rect>
-            <g id="Bits" transform="translate(56.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(56.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="521.5" y="13">7</tspan>
                 </text>
@@ -258,15 +258,15 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x01</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x1</tspan>
             </text>
         </g>
         <g id="Rotation-2" sketch:type="MSLayerGroup" transform="translate(8.000000, 95.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="611" y="0" width="80" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="51" y="0" width="80" height="40"></rect>
-            <g id="Bits" transform="translate(56.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(56.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="561.5" y="13">7</tspan>
                 </text>
@@ -336,15 +336,15 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x02</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x2</tspan>
             </text>
         </g>
         <g id="Rotation-3" sketch:type="MSLayerGroup" transform="translate(8.000000, 135.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="651" y="0" width="40" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="51" y="0" width="120" height="40"></rect>
-            <g id="Bits" transform="translate(56.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(56.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="601.5" y="13">7</tspan>
                 </text>
@@ -414,14 +414,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x03</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x3</tspan>
             </text>
         </g>
         <g id="Rotation-4" sketch:type="MSLayerGroup" transform="translate(8.000000, 175.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="51" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(58.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(58.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -491,14 +491,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x04</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x4</tspan>
             </text>
         </g>
         <g id="Rotation-5" sketch:type="MSLayerGroup" transform="translate(8.000000, 215.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="91" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(98.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(98.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -568,14 +568,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x05</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x5</tspan>
             </text>
         </g>
         <g id="Rotation-6" sketch:type="MSLayerGroup" transform="translate(8.000000, 255.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="131" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(138.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(138.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -645,14 +645,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x06</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x6</tspan>
             </text>
         </g>
         <g id="Rotation-7" sketch:type="MSLayerGroup" transform="translate(8.000000, 295.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="171" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(178.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(178.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -722,14 +722,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x07</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x7</tspan>
             </text>
         </g>
         <g id="Rotation-8" sketch:type="MSLayerGroup" transform="translate(8.000000, 335.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="211" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(218.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(218.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -799,14 +799,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x08</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x8</tspan>
             </text>
         </g>
         <g id="Rotation-9" sketch:type="MSLayerGroup" transform="translate(8.000000, 375.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="251" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(258.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(258.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -876,14 +876,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x09</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0x9</tspan>
             </text>
         </g>
         <g id="Rotation-10" sketch:type="MSLayerGroup" transform="translate(8.000000, 415.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="291" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(298.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(298.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -953,14 +953,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x0A</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xA</tspan>
             </text>
         </g>
         <g id="Rotation-11" sketch:type="MSLayerGroup" transform="translate(8.000000, 455.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="331" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(338.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(338.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -1030,14 +1030,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x0B</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xB</tspan>
             </text>
         </g>
         <g id="Rotation-12" sketch:type="MSLayerGroup" transform="translate(8.000000, 495.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="371" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(378.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(378.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -1107,14 +1107,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x0C</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xC</tspan>
             </text>
         </g>
         <g id="Rotation-13" sketch:type="MSLayerGroup" transform="translate(8.000000, 535.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="411" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(418.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(418.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -1184,14 +1184,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x0D</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xD</tspan>
             </text>
         </g>
         <g id="Rotation-14" sketch:type="MSLayerGroup" transform="translate(8.000000, 575.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="451" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(458.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(458.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -1261,14 +1261,14 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x0E</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xE</tspan>
             </text>
         </g>
         <g id="Rotation-15" sketch:type="MSLayerGroup" transform="translate(8.000000, 615.000000)">
             <rect id="Background" fill="#F7F7F7" sketch:type="MSShapeGroup" x="51" y="0" width="640" height="40"></rect>
             <rect id="Immediate" fill-opacity="0.5" fill="#7ED321" sketch:type="MSShapeGroup" x="491" y="0" width="160" height="40"></rect>
-            <g id="Bits" transform="translate(498.000000, 12.000000)" font-weight="normal" font-family="Menlo" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
+            <g id="Bits" transform="translate(498.000000, 12.000000)" font-weight="normal" fill="#000000" sketch:alignment="middle" font-size="14" sketch:type="MSTextLayer">
                 <text id="7">
                     <tspan x="-0.5" y="13">7</tspan>
                 </text>
@@ -1338,8 +1338,8 @@
                 </g>
                 <rect id="Outline" x="0" y="0" width="640" height="40"></rect>
             </g>
-            <text id="Rotation-amount" sketch:type="MSTextLayer" font-family="Menlo" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
-                <tspan x="0" y="25">0x0F</tspan>
+            <text id="Rotation-amount" sketch:type="MSTextLayer" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#000000">
+                <tspan x="0" y="25">0xF</tspan>
             </text>
         </g>
     </g>

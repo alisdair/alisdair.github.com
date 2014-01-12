@@ -21,6 +21,70 @@ $grid-background-baseline-height: $base-line-height/$base-font-size * 1em
 @import fonts
 @import syntax
 
+// Post-specific stuff
+
+#arm_immediate_encoding_form
+  +clearfix
+  max-width: 642px
+  margin: 0 auto
+
+  input, button
+    +adjust-font-size-to($base-font-size)
+    +box-sizing(border-box)
+    -moz-appearance: none
+    -webkit-appearance: none
+    display: block
+    font-family: "DejaVu Sans Mono", monospace
+    border: 2px solid $foreground-color
+    text-align: center
+    width: 100%
+    height: 40px
+    margin: 0
+    padding: 5px
+
+  input.error
+    color: #d22
+
+  button
+    cursor: pointer
+    color: $background-color
+    background: $link-color
+    border: none
+    &:hover
+      background: lighten($link-color, 20%)
+
+  .input
+    margin: 5px 90px
+
+  @media screen and (max-width: 400px)
+    .input
+      clear: both
+      margin: 5px
+
+  .button
+    width: 40px
+    margin: 5px 0
+  .button_left
+    float: left
+  .button_right
+    float: right
+
+#decoded_bits
+  rect
+    fill: transparent
+    &.span
+      fill-opacity: 0.5
+      fill: #7ED321
+    &.error
+      fill-opacity: 0.5
+      fill: #E32E21
+
+#encoder_output
+  text-align: center
+  font-family: "DejaVu Sans Mono", monospace
+  &.error
+    color: #d22
+
 html
   +adjust-leading-to(2)
   margin: 0 1em
@@ -75,10 +139,14 @@ p
       position: relative
       top: 0.05em
 
-  img
+  img, svg
     display: block
     margin: 0 auto
     max-width: 100%
+
+  ul
+    margin-left: 2em
+    list-style-type: disc
 
 #about
   max-width: 27em
