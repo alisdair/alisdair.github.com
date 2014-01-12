@@ -53,7 +53,7 @@ Compare it also to the equivalent instruction in MIPS, `addi`:
 
 ![MIPS instruction encoding for ADDI instruction](/images/arm-immediate/mips.svg)
 
-Or the strangely backwards PowerPC, also called `addi`:
+Or the similar PowerPC, also called `addi`:
 
 ![PowerPC instruction encoding for ADDI instruction](/images/arm-immediate/powerpc.svg)
 
