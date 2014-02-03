@@ -4,12 +4,12 @@ title: Alisdair McDiarmid
 ---
 
 <div id="about" class="vcard">
-  <span class="photo-wrapper"><img class="photo" src="/alisdair.jpg"></span>
+  <span class="photo-wrapper"><img class="photo" src="/alisdair.jpg" alt=""></span>
   <span class="fn">Alisdair McDiarmid</span> is a <span class="title">software engineer</span> and <span class="title">consultant</span> with <a href="http://randomoracle.com/"><span class="org">Random Oracle</span></a> in <span class="adr"><span class="locality">Glasgow</span>, <span class="region">Scotland</span></span>.
 </div>
 
 <ul id="posts">
   {% for post in site.posts %}
-  <li><time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time> <a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time> <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
