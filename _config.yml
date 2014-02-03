@@ -1,5 +1,5 @@
 safe: true
 markdown: rdiscount
 pygments: true
-exclude: [Gemfile, Gemfile.lock, Guardfile, README.md, config.rb, sass, Procfile, CNAME]
+exclude: [Gemfile, Gemfile.lock, Guardfile, README.md, config.rb, sass, Procfile, Rakefile]
 description: "Software engineer and consultant based in Glasgow, Scotland."
