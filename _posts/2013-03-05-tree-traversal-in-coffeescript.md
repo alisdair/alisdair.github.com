@@ -15,7 +15,7 @@ No idea what partial application or function composition are? Read on.
 
 ## Preamble
 
-[CoffeeScript][coffeescript] is not particularly similar to [Haskell][coffeescript], and it's [not well-suited to recursive algorithms][tco]. This translation might help you understand some basic Haskell a little better, and will hopefully explain this function composition pattern, but that's all it's good for. Don't use it in practice.
+[CoffeeScript][coffeescript] is not particularly similar to [Haskell][haskell], and it's [not well-suited to recursive algorithms][tco]. This translation might help you understand some basic Haskell a little better, and will hopefully explain this function composition pattern, but that's all it's good for. Don't use it in practice.
 
 [coffeescript]: http://coffeescript.org/
 [haskell]: http://www.haskell.org/haskellwiki/Haskell
