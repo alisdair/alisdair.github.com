@@ -359,7 +359,7 @@ There is one small problem with the current implementation of component integrat
 Finally, a few links and thanks:
 
 * [Edward Faulkner](https://github.com/ef4), who [built the integration testing feature][component-integration-tests];
-* [Robert Jackson](https://github.com/rwjblue), who maintains [ember-test-helpers][ember-test-helpers];
+* [Robert Jackson](https://github.com/rwjblue) and [Dan Gebhardt](https://github.com/dgeb), who maintain [ember-test-helpers][ember-test-helpers];
 * [Clemens Müller](https://github.com/pangratz), who built the [Babel plugin][ember-cli-htmlbars-inline-precompile];
 * And my coworkers [Justin Brown](https://github.com/jbrown) and [Alvin Crespo](https://github.com/alvincrespo), who introduced this feature to me.
 
