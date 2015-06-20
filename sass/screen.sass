@@ -191,9 +191,10 @@ p code
 p a:hover code
   background: transparent
 
-pre
+#post pre
   +trailer(2)
-  +rhythm-borders(2px)
+  +rhythm-borders(1px)
+  +adjust-font-size-to(16px, 4/3)
   background: lighten($foreground-color, 5%)
   border-color: mix($foreground-color, $background-color)
   color: $background-color
@@ -318,10 +319,10 @@ em strong, strong em
     a
       +leader(0)
   #post pre
-    +adjust-font-size-to(12px, 1.5)
+    +adjust-font-size-to(12px, 1)
     +leader(2, 12px)
     +trailer(2, 12px)
-    +rhythm-borders(2px, 1, 12px)
+    +rhythm-borders(1px, 1, 12px)
 
   #about
     max-width: 100%
