@@ -2,4 +2,4 @@ safe: true
 markdown: rdiscount
 pygments: true
 exclude: [Gemfile, Gemfile.lock, README.md, config.rb, sass, Rakefile]
-description: "Software engineer and consultant based in Glasgow, Scotland."
+description: "Senior software engineer based in Glasgow, Scotland."
