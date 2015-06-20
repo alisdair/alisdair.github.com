@@ -4,7 +4,21 @@ Source for my jekyll-powered weblog.
 
 http://alisdair.mcdiarmid.org/
 
-# License
+## Usage
+
+In development, run jekyll with:
+
+    bundle exec jekyll serve --watch
+
+If you're changing stylesheets, also run:
+
+    bundle exec compass watch
+
+To publish:
+
+    bundle exec rake deploy
+
+## License
 
 You may not reuse anything within the `\_posts` directory without my permission.
 
