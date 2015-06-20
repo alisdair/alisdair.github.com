@@ -1,5 +1,5 @@
 safe: true
 markdown: rdiscount
-pygments: true
+highlighter: pygments
 exclude: [Gemfile, Gemfile.lock, README.md, config.rb, sass, Rakefile]
 description: "Senior software engineer based in Glasgow, Scotland."
